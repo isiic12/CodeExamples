@@ -326,10 +326,15 @@ public class LinkedList<V extends Comparable<V>> {
 		head = prev;
 	}
 	
+	/**
+	 * Resets the entire list by setting the head to
+	 * null and the current size to 0
+	 */
 	public void clear() {
 		this.head = null;
 		this.numElements = 0;
 	}
+	
 	
 	/**
 	 * The entire list is returned in the form (node)->(node)->(node).
