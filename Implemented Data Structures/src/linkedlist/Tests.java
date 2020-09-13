@@ -582,6 +582,20 @@ public class Tests {
 		assertTrue(listFromSet.contains(20));
 		assertTrue(listFromSet.contains(0));
 		assertEquals(5, listFromSet.length());
+	}
+	
+	//Tests the clear method
+	@Test
+	public void testClear() {
+		Integer[] listArray = new Integer[] {2, 7, -4, 20, 0};	
+		LinkedList<Integer> listFromArray = new LinkedList<Integer>(listArray);
+		
+		assertEquals(5, listFromArray.length());
+		
+		listFromArray.clear();
+		
+		assertEquals(0, listFromArray.length());
+		assertNull(listFromArray.head);
 		
 	}
 
