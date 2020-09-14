@@ -584,7 +584,7 @@ public class Tests {
 		assertEquals(5, listFromSet.length());
 	}
 	
-	//Tests the clear method after creating a list from an array
+	//Tests the clear method after creating a list from an array.
 	@Test
 	public void testClear() {
 		Integer[] listArray = new Integer[] {2, 7, -4, 20, 0};	
@@ -596,7 +596,6 @@ public class Tests {
 		
 		assertEquals(0, listFromArray.length());
 		assertNull(listFromArray.head);
-		
 	}
 
 }

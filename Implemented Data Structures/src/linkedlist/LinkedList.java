@@ -1,6 +1,5 @@
 package linkedlist;
 
-import java.util.Map;
 import java.util.Set;
 import java.util.NoSuchElementException;
 
@@ -328,7 +327,7 @@ public class LinkedList<V extends Comparable<V>> {
 	
 	/**
 	 * Resets the entire list by setting the head to
-	 * null and the current size to 0
+	 * null and the current size to 0.
 	 */
 	public void clear() {
 		this.head = null;
