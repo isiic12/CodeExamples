@@ -21,8 +21,6 @@ public class LinkedList<V extends Comparable<V>> {
 	/**
 	 * Node class for linked list. Every node stores a piece
 	 * of data and a reference to the next node in the list.
-	 * @author Isaac
-	 *
 	 */
 	public class Node {
 		public V val;
