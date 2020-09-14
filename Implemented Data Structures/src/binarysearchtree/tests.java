@@ -3,12 +3,6 @@ package binarysearchtree;
 import static org.junit.Assert.*;
 import java.util.*;
 import org.junit.Test;
-import junit.framework.TestCase;
-import junit.framework.AssertionFailedError;
-
-import org.junit.runner.JUnitCore;
-import org.junit.runner.Result;
-import org.junit.runner.notification.Failure;
 
 public class tests {
 	
