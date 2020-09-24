@@ -53,7 +53,9 @@ public class BST<K extends Comparable<K>, V> {
 		if (!map.isEmpty()) {
 			Set<K> keys = map.keySet();
 			for (K key : keys) {
-				this.insert(key, map.get(key));
+				V val = map.get(key);
+				if (val != null)
+					this.insert(key, val);
 			}
 		}
 	}
