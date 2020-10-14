@@ -341,8 +341,7 @@ public class LinkedList<V extends Comparable<V>> {
 	 */
 	@Override
 	public String toString() {
-		if (head == null)
-			return "List is empty";
+		if (head == null) return "";
 		
 		String output = "";
 		Node current = head;

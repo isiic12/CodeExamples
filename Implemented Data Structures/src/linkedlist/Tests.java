@@ -33,7 +33,6 @@ public class Tests {
 		linkedList.add(1);
 
 		assertEquals(4, linkedList.length());
-		//System.out.println("Test Add: " + linkedList.toString());
 
 		int index = 0;
 		int[] values = new int[] {1, 0, 1, 0};
@@ -65,7 +64,6 @@ public class Tests {
 		linkedList.append(5);
 
 		assertEquals(6, linkedList.length());
-		//System.out.println("Test Append1: " + linkedList.toString());
 
 		int index = 0;
 		int[] values = new int[] {0, 1, 2, 3, 8, 5};
@@ -92,7 +90,6 @@ public class Tests {
 		assertTrue(linkedList.contains(5));
 		assertTrue(linkedList.contains(4));
 
-		//System.out.println("Test Append2: " + linkedList.toString());
 		assertEquals(3, linkedList.length());
 
 		int index = 0;
@@ -130,7 +127,6 @@ public class Tests {
 		linkedList.add(0);
 		linkedList.insertAt(2, 2);
 
-		//System.out.println("Test insertAt1: " + linkedList.toString());
 		assertTrue(linkedList.contains(2));
 		assertEquals(5, linkedList.length());
 
@@ -170,8 +166,6 @@ public class Tests {
 			assertEquals(3, linkedList.length());
 		}
 
-		//System.out.println("Test insertAt2: " + linkedList.toString());
-
 		int index = 0;
 		int[] values = new int[] {6, 5, 4};
 		LinkedList.Node current = linkedList.head;
@@ -194,8 +188,6 @@ public class Tests {
 		linkedList.add(6);
 
 		linkedList.insertAt(7, 0);
-
-		//System.out.println("Test insertAt3: " + linkedList.toString());
 
 		int index = 0;
 		int[] values = new int[] {7, 6, 5, 4};
@@ -222,8 +214,6 @@ public class Tests {
 		linkedList.add(6);
 
 		linkedList.insertAt(3, 3);
-
-		//System.out.println("Test insertAt4: " + linkedList.toString());
 
 		int index = 0;
 		int[] values = new int[] {6, 5, 4, 3};
@@ -260,8 +250,6 @@ public class Tests {
 			assertEquals(3, linkedList.length());
 		}
 
-		//System.out.println("Test insertAt5: " + linkedList.toString());
-
 		int index = 0;
 		int[] values = new int[] {6, 5, 4};
 		LinkedList.Node current = linkedList.head;
@@ -288,8 +276,6 @@ public class Tests {
 		assertEquals(5, linkedList.length());
 
 		linkedList.delete(0);
-
-		//System.out.println("Test Delete Head: " + linkedList.toString());
 		assertEquals(4, linkedList.length());
 		assertTrue(1 == linkedList.head.val);
 
@@ -317,8 +303,6 @@ public class Tests {
 		linkedList.add(0);
 
 		linkedList.delete(4);
-
-		//System.out.println("Test Delete Tail: " + linkedList.toString());
 
 		LinkedList.Node tailNode = linkedList.head;
 		while (tailNode.next != null) {
@@ -352,8 +336,6 @@ public class Tests {
 		linkedList.add(0);
 
 		linkedList.delete(2);
-
-		//System.out.println("Test Delete Middle: " + linkedList.toString());
 		assertEquals(4, linkedList.length());
 
 		int index = 0;
@@ -383,8 +365,6 @@ public class Tests {
 		linkedList.delete(3);
 		linkedList.delete(4);
 		linkedList.delete(5);
-
-		//System.out.println("Test Delete Multiple: " + linkedList.toString());
 		assertEquals(5, linkedList.length());
 
 		int index = 0;
@@ -420,8 +400,6 @@ public class Tests {
 		linkedList.add(7);
 		linkedList.add(6);
 		linkedList.add(5);
-
-		//System.out.println("Test Contains: " + linkedList.toString());
 
 		assertEquals(4, linkedList.length());
 		assertTrue(linkedList.contains(5));
@@ -500,7 +478,6 @@ public class Tests {
 		linkedList.add(0);
 
 		linkedList.sort();
-		//System.out.println("Test Sort 1:" + linkedList.toString());
 
 		int index = 0;
 		int[] values = new int[] {-4, -2, 0, 1, 2, 3, 4, 5, 7, 9, 81};
@@ -524,10 +501,7 @@ public class Tests {
 		linkedList.add(5);
 		linkedList.add(6);
 		linkedList.add(7);
-		//System.out.println("Test Reverse: " + linkedList.toString());
-
 		linkedList.reverse();
-		//System.out.println("Test Reverse: " + linkedList.toString());
 
 		int index = 0;
 		int[] values = new int[] {3, 4, 5, 6, 7};
@@ -557,10 +531,6 @@ public class Tests {
 		LinkedList<Integer> listInitVal = new LinkedList<Integer>(5);
 		LinkedList<Integer> listFromArray = new LinkedList<Integer>(listArray);
 		LinkedList<Integer> listFromSet = new LinkedList<Integer>(hs);
-
-		//System.out.println(listFromSet.toString());
-		//System.out.println(listFromArray.toString());
-		//System.out.println(listInitVal.toString());
 
 		int index = 0;
 		int[] values = new int[] {0, 20, -4, 7, 2};

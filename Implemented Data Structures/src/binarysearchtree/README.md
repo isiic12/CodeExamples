@@ -9,7 +9,7 @@ according to rules of a BST. I've added a number of constructors that allow the 
 new binary search trees in a variety of ways. These include creating an empty tree, a tree with an initial root using a provided key-value pairing, and a tree from an existing map. The tree contains numerous methods that I felt would be useful to a user, but if there's anything that sticks out as missing, feel free to contact me and I'll add it as soon as I'm able. 
 
 ### <br> 1. Nodes
- The tree is made up of nodes, a class defined at the top of the BST.java file. Each node has 4 data fields: _key_ , _val_, _val_, and _right_. The _key_ field is of generic type _K_, and the only restriction on what can be passed on keys is they must be comparable using Java's
+ The tree is made up of nodes, a class defined at the top of the BST.java file. Each node has 4 data fields: _key_ , _val_, _left_, and _right_. The _key_ field is of generic type _K_, and the only restriction on what can be passed on keys is they must be comparable using Java's
  **Comparable** interface - as long as the key implements it, any class can be used as a key. the _val_ field is of generic type _V_, and can be any data type you wish. The _left_ and 
  _right_ fields point to each node's left and right children, respectively. Nodes are always instantiated using a key-value pair. The Node class also contains a personalized **toString** method, which returns a string representation of the node of form: " _key_:_val_ ".
 
