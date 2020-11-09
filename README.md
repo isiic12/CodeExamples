@@ -33,5 +33,4 @@ a brute force approach, while the other used multi-threading to accomplish the t
 
 ### [Polymorphic BST](https://github.com/isiic12/CodeExamples/tree/master/polymorphicTree)
 <p>This was a project I wrote for a freshman year data structures course. Functionally it is no different than
-a normal [binary search trees](https://github.com/isiic12/CodeExamples/tree/master/Implemented%20Data%20Structures/src/binarysearchtree) ,
-however was built on the principles of polymorphism. Written in Java.
+a normal binary search trees, however it was built to demonstrate how polymorphism works. Written in Java.
