@@ -10,7 +10,11 @@ contains the following projects:
 * Matrix Multiplication
 * Polymorphic Binary Search Tree
 
-## About Each Projects
+Currently the project are written in Java. Though I do have experience with C/C++ and Python, I am most
+comfortable with Java. Additionally, I preferred to write these projects in Java as the Eclipse IDE's 
+built-in Git functionality makes pushing code to GitHub very easy.
+
+## About Each Project
 
 ### [Implemented Data Structures](https://github.com/isiic12/CodeExamples/tree/master/Implemented%20Data%20Structures/src)
 <p>This folder contains my own implementations of common data structures, such as :
@@ -18,6 +22,7 @@ contains the following projects:
 * [Linked List](https://github.com/isiic12/CodeExamples/tree/master/Implemented%20Data%20Structures/src/linkedlist)
 * [Binary Search Trees](https://github.com/isiic12/CodeExamples/tree/master/Implemented%20Data%20Structures/src/binarysearchtree)
 * [Binary Heaps](https://github.com/isiic12/CodeExamples/tree/master/Implemented%20Data%20Structures/src/binaryheaps)
+
 Each of these data structures has their own README, explaining how they work and how I chose to implement them.
 Currently, they are all implemented in Java.
 
