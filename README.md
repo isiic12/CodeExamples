@@ -13,8 +13,9 @@ contains the following projects:
 ## About Each Projects
 
 ### [Implemented Data Structures](https://github.com/isiic12/CodeExamples/tree/master/Implemented%20Data%20Structures/src)
-<p>This folder contains my own implementations of common data structures, such as 
-* [Linked Lists](https://github.com/isiic12/CodeExamples/tree/master/Implemented%20Data%20Structures/src/linkedlist)
+<p>This folder contains my own implementations of common data structures, such as :
+ 
+* https://github.com/isiic12/CodeExamples/tree/master/Implemented%20Data%20Structures/src/linkedlist
 * [Binary Search Trees](https://github.com/isiic12/CodeExamples/tree/master/Implemented%20Data%20Structures/src/binarysearchtree)
 * [Binary Heaps](https://github.com/isiic12/CodeExamples/tree/master/Implemented%20Data%20Structures/src/binaryheaps)
 Each of these data structures has their own README, explaining how they work and how I chose to implement them.
