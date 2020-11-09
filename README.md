@@ -3,20 +3,20 @@ This repository contains examples of code I've written, such as class and person
 intended as a way to demonstrate my knowledge and skill for potential employers. Currently, this repository
 contains the following projects:
 
-*Implemented Data Structures
-  *Linked List
-  *Binary Search Tree
-  *Binary Heap
-*Matrix Multiplication
-*Polymorphic Binary Search Tree
+* Implemented Data Structures
+  * Linked List
+  * Binary Search Tree
+  * Binary Heap
+* Matrix Multiplication
+* Polymorphic Binary Search Tree
 
 ## About Each Projects
 
 ### [Implemented Data Structures](https://github.com/isiic12/CodeExamples/tree/master/Implemented%20Data%20Structures/src)
 <p>This folder contains my own implementations of common data structures, such as 
-*[Linked Lists](https://github.com/isiic12/CodeExamples/tree/master/Implemented%20Data%20Structures/src/linkedlist)
-*[Binary Search Trees](https://github.com/isiic12/CodeExamples/tree/master/Implemented%20Data%20Structures/src/binarysearchtree)
-*[Binary Heaps](https://github.com/isiic12/CodeExamples/tree/master/Implemented%20Data%20Structures/src/binaryheaps)
+* [Linked Lists](https://github.com/isiic12/CodeExamples/tree/master/Implemented%20Data%20Structures/src/linkedlist)
+* [Binary Search Trees](https://github.com/isiic12/CodeExamples/tree/master/Implemented%20Data%20Structures/src/binarysearchtree)
+* [Binary Heaps](https://github.com/isiic12/CodeExamples/tree/master/Implemented%20Data%20Structures/src/binaryheaps)
 Each of these data structures has their own README, explaining how they work and how I chose to implement them.
 Currently, they are all implemented in Java.
 
